@@ -1,0 +1,20 @@
+package oops;
+
+import java.util.HashSet;
+
+public class CollectionFramework {
+	
+	public void setExample() {
+		HashSet<String> names = new HashSet<String>();
+		names.add("dan");
+		names.add("tom");
+		names.add("shirish");
+		
+	}
+
+	public static void main(String[] args){
+		CollectionFramework obj = new CollectionFramework();
+		obj.setExample();
+	}	
+}
+

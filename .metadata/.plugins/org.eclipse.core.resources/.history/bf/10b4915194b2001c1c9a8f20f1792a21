@@ -1,0 +1,16 @@
+package basicTraining;
+
+public class App
+{
+public static void main( String[] args )
+{
+
+try {
+System.out.println( "Hello World!" );
+} catch (Exception e) {
+System.out.println("In Catch Block 1");
+} catch (NullPointerException e1) {
+System.out.println("In Catch Block 2");
+}
+}
+}
